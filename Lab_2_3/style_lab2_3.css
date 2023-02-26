@@ -1,0 +1,35 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: flex-start;
+    flex-flow: nowrap;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.centering {
+    justify-content: center;
+}
+
+.spacing {
+    justify-content: space-between;
+}
+
+.background-1 {
+    flex-direction: row;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.warpping {
+    flex-wrap: wrap;
+}
+
+#wb1 {
+    flex-wrap: wrap;
+    flex-grow: initial;
+    flex-flow: row;
+}
